@@ -1,0 +1,54 @@
+h1, h2, h3, .geist {
+  font-family: "Geist", "Geist Fallback", sans-serif;
+  font-display: block;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+p, label, a, li {
+  font-family: "Geist Mono", "Geist Mono Fallback", monospace;
+  font-size: 14px;
+  font-display: block;
+}
+
+.geist-mono {
+  font-family: "Geist Mono", "Geist Mono Fallback", monospace;
+  font-display: block;
+}
+
+/*  */
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--primary-foreground);
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+li {
+  padding-left: 8px;
+}
