@@ -10,9 +10,12 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preload" href="/geist-mono.woff2" as="font" crossorigin="" type="font/woff2">
     <link rel="preload" href="/geist.woff2" as="font" crossorigin="" type="font/woff2">
-    <link rel="stylesheet" href="/src/globals.css">
-    <link rel="stylesheet" href="/src/fancy.css">
-    <link rel="stylesheet" href="/src/main.css">
+    <!-- <link rel="stylesheet" href="/src/globals.css"> -->
+    <script>
+      import "@veivel/carboncss/style.css"
+      require("@veivel/carboncss/style.css");
+    </script>
+    <link rel="stylesheet" href="./node_modules/@veivel/carboncss/style.css">
   </head>
   <body class="p-2 min-h-screen flex flex-col">
     <div class="relative py-8 px-4 sm:px-[calc(50dvw-400px)] 2xl:px-[calc(50dvw-400px)] flex flex-col h-fit">
@@ -22,12 +25,12 @@
         <br/>
       </div>
       <div class="flex flex-col">
-        <h3 class="special-underline w-fit">› about</h3>
+        <h3 class="special-underline w-fit">› about me</h3>
         <p>
           i don't like labels. they restrain and confine you into an incomplete, one-dimensional identity
-          – judge me as you will.
+          – judge me as you will!
           <br/><br/>
-          i am someone who inherently likes to fiddle with things, experiment, and learn. 
+          i am someone who loves to fiddle with things, experiment, and learn. 
           the interests i've been pursuing include devops, data engineering, and databases
           (but you can pique my interest with any software or data infrastructure). 
           <br/><br/>
