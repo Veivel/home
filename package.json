@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
-    "@veivel/carboncss": "^1.0.7",
+    "@veivel/carboncss": "^1.0.9",
     "tailwindcss": "^4.0.9"
   }
 }
